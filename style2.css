@@ -1,0 +1,367 @@
+body
+{
+	background-color: white;
+	font-family: 'Open Sans', sans-serif !important;
+	
+}
+.navbar
+{
+	background-color: #64dbbc;
+	width: 100%;
+	height: 10%;
+	animation: bounce-in-top 1.1s both;
+}
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}
+
+.navbar-brand
+{
+	color: #fff;
+	font-size: 100%;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.nav-link
+{
+	margin-right: 2em !important;
+	font-size: 120%;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+.nav-link:hover
+{
+	transform: scale(1.1);
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+.navbar-brand:hover
+{
+	transform: scale(1.1);
+	color: #fff;
+	text-decoration: none;
+
+}
+.navbar-collapse
+{
+	justify-content: flex-end;
+}
+/* container */
+#aboutme
+{
+	margin-top: 10%;
+}
+#aboutme h1
+{
+	text-align: justify;
+	float: left;
+	font-size: 700%;
+	width: 100%;
+	text-align: left;
+}
+#aboutme p
+{
+	margin-top: 15%;
+	text-align: justify;
+	font-size: 200%;
+	animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+h1
+{
+	text-align: center;
+	padding: 5%;
+}
+
+.col-4
+{
+	color: white;
+	text-align: center;
+	background-color: 64dbbc !important;
+	transition: all 0.5s ease-in-out;
+}
+.row h3
+{
+	line-height: 600%;
+	margin-bottom: 0;
+	color: white;
+}
+
+.col-4:hover
+{
+	transform: scale(0.9);
+	opacity: 0.5;
+	width: 40%;
+	cursor: pointer;
+}
+
+.col-12
+{
+	color: white;
+	text-align: center;
+	background-color: 53caab !important;
+	transition: all 0.5s ease-in-out;
+}
+.col-12:hover
+{
+	transform: scale(0.9);
+	opacity: 0.5;
+	width: 40%;
+	cursor: pointer;
+}
+
+.hobbies h1
+{
+	margin-top: 20%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1000%;
+	color: black;
+	padding: 7%;
+}
+.icon-download
+{
+	font-size: 1000%;
+}
+.btn
+{
+	animation: heartbeat 1.5s ease-in-out infinite both;
+}
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+	color: #000;
+	opacity: 0.7;
+
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+opacity: 0.7;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+	color: #000;
+opacity: 0.7;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+	color: #ffffdf;
+opacity: 0.7;
+  }
+}
+.jumbotron
+{
+	width: 100%;
+}
+#contact row
+{
+	float: center;
+	width: 80%;
+}
+#contact  .col-md-12
+{
+	padding: 1%;
+	font-size: 500%;
+	margin: 0 auto;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+	color: black;
+	width: 30%;
+	animation: wobble-hor-bottom 0.6s infinite both;
+}
+#contact .col-md-12 a
+{
+	width:100%;
+	height: 100%;
+	top: 0;
+    left: 0;
+	color: black;
+	animation: wobble-hor-bottom 0.6s infinite both;
+}
+#contact .col-md-12:hover
+{
+	transform: scale(0.9);
+	cursor: pointer;
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+            transform: translate(0%);
+            transform-origin: 50% 50%;
+  }
+  15% {
+            transform: rotate(-1eg);
+  }
+  30% {
+            transform: rotate(1deg);
+  }
+  45% {
+            transform: rotate(-1deg);
+  }
+  60% {
+            transform: rotate(1deg);
+  }
+  75% {
+            transform: rotate(-1deg);
+  }
+}
+
+.fb:hover
+{
+	opacity: 0.5;
+	text-decoration: none;	
+	cursor: pointer;
+}
+
+.git:hover 
+{
+	opacity: 0.5;
+	text-decoration: none;
+	cursor: pointer;
+}
+.lin:hover 
+{
+	opacity: 0.5;
+	text-decoration: none;
+	cursor: pointer;
+}
+#contact .col-md-12:hover a
+{
+	text-decoration: none;
+	cursor: pointer;
+}
+.page-footer
+{
+	font-weight: bold;
+	background-color: #64dbbc;
+	position: fixed;
+	bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+/*--- media queries ---*/
+
+@media (max-width: 479px) {
+
+.navbar
+{
+	background-color: #64dbbc;
+}
+.nav-item
+{
+	background-color: #64dbbc;
+}
+.nav-link
+{
+	background-color: #64dbbc;
+}
+.carousel-inner
+{
+	height: 300px;
+}
+
+#slajdy
+{
+	height: 200px;
+}
+
+#experience .row h3
+{
+	font-size: 50%;
+	text-align: center;
+}
+#experience .row
+{
+	width: 100% !important;
+	height: 50px !important;
+}
+#cv
+{
+	margin-top: 10%;
+}
+#aboutme h1
+{
+	float: right;
+}
+#aboutme p
+{
+	font-size: 80%;
+}
+#languages h3
+{
+	font-size: 50%;
+}
+#contact
+{
+	margin-bottom: 20%;
+	height: 100px;
+}
+#contact col-md-12
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8%;
+}
+
+#contact a
+{
+	font-size: 100%;
+}
+
+}
+html {
+    scroll-behavior: smooth;
+}
